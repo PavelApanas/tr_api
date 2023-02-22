@@ -1,15 +1,3 @@
-# def findLen_m(message):
-#     counter = 0
-#     for i in message:
-#         counter += 1
-#     return counter
-#
-# def findLen_k(key):
-#     counter = 0
-#     for i in key:
-#         counter += 1
-#     return counter
-
 a = input("Message: ")
 b = input("Key: ")
 binary_a = []
