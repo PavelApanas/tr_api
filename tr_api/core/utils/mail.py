@@ -13,7 +13,7 @@ def send_mail(to: str, subject:str, message: str) -> None:
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('pavelfapanas@yandex.ru', 'fgtfgfedivnbuuaz')
+    server.login('pavelfapanas@yandex.ru', '')
     server.sendmail('pavelfapanas@yandex.ru', to, msg.as_string())
 
 
